@@ -4,4 +4,69 @@
 }
 .App {
   margin: 0 70px 0 70px;
+  background: linear-gradient(
+    0deg,
+    rgb(94, 202, 84) 0%,
+    rgb(247, 249, 250) 100%
+  );
+}
+/*header section */
+.header {
+  font-size: 35px;
+  color: black;
+  /* background: linear-gradient(90deg, #b6acac 0%, #1f1d18 100%); */
+  background: linear-gradient(
+    270deg,
+    rgb(111, 88, 214) 0%,
+    rgb(247, 249, 250) 100%
+  );
+  text-align: center;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  font-weight: normal;
+  border-radius: 20px 20px 0 0;
+}
+.name,
+.bio {
+  margin-left: 400px;
+}
+.name:hover,
+.bio:hover {
+  color: rgb(10, 21, 124);
+  transform: scale(1.05);
+  cursor: -webkit-grabbing;
+}
+.name {
+  font-family: sans-serif;
+}
+.bio {
+  font-family: monospace;
+  font-size: 30px;
+}
+/*header section close */
+
+/*common title css */
+.title {
+  font-size: 30px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.title:hover {
+  color: rgb(25, 7, 182);
+  text-shadow: 0px 0px 30px rgb(116, 124, 194);
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+.left {
+  flex: 0.3;
+}
+.right {
+  flex: 0.7;
+  margin-top: 20px;
 }

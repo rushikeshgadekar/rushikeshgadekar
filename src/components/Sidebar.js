@@ -4,10 +4,6 @@ import "./Sidebar.css";
 const Sidebar = () => {
   return (
     <>
-      <div className="header">
-        <h1 className="name">Rushikesh Gadekar</h1>
-        <h3 className="bio">Computer Science Engineer</h3>
-      </div>
       <div className="sidebar">
         <div className="img-container">
           <img src={img} alt="pepe" />
@@ -25,13 +21,13 @@ const Sidebar = () => {
           <div>
             <h2 className="title">Skills</h2>
             <div className="skills">
-              <div className="left">
+              <div className="l">
                 <p>Html</p>
                 <p>Css</p>
                 <p>Javascript</p>
                 <p>React.js</p>
               </div>
-              <div className="right">
+              <div className="r">
                 <p>Python</p>
                 <p>Android</p>
                 <p>Linux</p>

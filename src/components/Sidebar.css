@@ -1,36 +1,16 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  font-family: sans-serif;
 }
-.header {
-  font-size: 35px;
-  color: white;
-  background: linear-gradient(90deg, #b6acac 0%, #1f1d18 100%);
-  text-align: center;
-  padding-bottom: 15px;
-  padding-top: 15px;
-  font-weight: normal;
-}
-.name,
-.bio {
-  margin-left: 500px;
-}
-.name {
-  font-family: sans-serif;
-}
-.bio {
-  font-family: monospace;
-  font-size: 30px;
-}
+
 .sidebar {
-  width: 30%;
   background: linear-gradient(
     0deg,
     rgb(56, 149, 202) 0%,
     rgb(247, 249, 250) 100%
   );
+  border-radius: 0 0 20px 20px;
+  padding-bottom: 250px;
 }
 .img-container {
   text-align: center;
@@ -60,6 +40,7 @@
 
 .info {
   text-align: center;
+  margin-top: 20px;
 }
 .info,
 h3 {
@@ -69,20 +50,10 @@ h3 {
 p {
   padding-top: 4px;
 }
-.title {
-  font-size: 30px;
-  text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.title:hover {
-  color: rgb(25, 7, 182);
-  text-shadow: 0px 0px 30px rgb(116, 124, 194);
-  cursor: pointer;
-  transition: all 0.2s ease-in;
-}
+
 .skills {
   display: flex;
-  padding: 0 60px 0 60px;
+  padding: 0 80px 0 80px;
   justify-content: space-between;
 }
 .lang {
@@ -90,7 +61,6 @@ p {
   margin-top: 10px;
 }
 .certificates {
-  margin-top: 10px;
   margin-left: 25px;
 }
 ul {

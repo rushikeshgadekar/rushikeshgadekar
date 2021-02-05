@@ -1,0 +1,21 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.abt p {
+  font-weight: light;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px 20px;
+}
+.abt h2 {
+  margin-top: 5px;
+}
+.list {
+  margin: 0;
+  padding: 5px;
+}
+
+.abt h1 {
+  text-decoration: underline;
+}
