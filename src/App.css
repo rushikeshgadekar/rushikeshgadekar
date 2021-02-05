@@ -9,6 +9,8 @@
     rgb(94, 202, 84) 0%,
     rgb(247, 249, 250) 100%
   );
+  box-shadow: 8px 8px 100px rgba(67, 52, 204, 0.5);
+  border-radius: 25px;
 }
 /*header section */
 .header {
@@ -37,10 +39,10 @@
   cursor: -webkit-grabbing;
 }
 .name {
-  font-family: sans-serif;
+  font-family: Verdana, sans-serif;
 }
 .bio {
-  font-family: monospace;
+  font-family: Verdana, sans-serif;
   font-size: 30px;
 }
 /*header section close */
@@ -53,7 +55,7 @@
 }
 .title:hover {
   color: rgb(25, 7, 182);
-  text-shadow: 0px 0px 30px rgb(116, 124, 194);
+  text-shadow: 0px 0px 30px rgb(164, 178, 223);
   cursor: pointer;
   transition: all 0.2s ease-in;
 }

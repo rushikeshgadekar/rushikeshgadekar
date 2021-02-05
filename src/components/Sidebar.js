@@ -14,9 +14,15 @@ const Sidebar = () => {
             <h3>Phone</h3>
             <p>9579348055</p>
             <h3>Email</h3>
-            <p>rsgadekar25@gmail.com</p>
+            <p>
+              <a href="rushikeshgadekar17399@gmail.com">
+                rushikeshgadekar17399@gmail.com
+              </a>
+            </p>
             <h3>Home</h3>
-            <p>Plot no -63, Sai Colony, Jadhvwadi, Aurangabad-431001</p>
+            <p>
+              Plot no-63,SN-152/1, Sai Colony, Jadhavwadi, Aurangabad-431003
+            </p>
           </div>
           <div>
             <h2 className="title">Skills</h2>
