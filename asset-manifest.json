@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/rushikeshgadekar/static/css/main.94c81307.chunk.css",
+    "main.js": "/rushikeshgadekar/static/js/main.0e08f82a.chunk.js",
+    "main.js.map": "/rushikeshgadekar/static/js/main.0e08f82a.chunk.js.map",
+    "runtime-main.js": "/rushikeshgadekar/static/js/runtime-main.7e46627f.js",
+    "runtime-main.js.map": "/rushikeshgadekar/static/js/runtime-main.7e46627f.js.map",
+    "static/js/2.8cd2593d.chunk.js": "/rushikeshgadekar/static/js/2.8cd2593d.chunk.js",
+    "static/js/2.8cd2593d.chunk.js.map": "/rushikeshgadekar/static/js/2.8cd2593d.chunk.js.map",
+    "index.html": "/rushikeshgadekar/index.html",
+    "static/css/main.94c81307.chunk.css.map": "/rushikeshgadekar/static/css/main.94c81307.chunk.css.map",
+    "static/js/2.8cd2593d.chunk.js.LICENSE.txt": "/rushikeshgadekar/static/js/2.8cd2593d.chunk.js.LICENSE.txt",
+    "static/media/profile.b7507370.jpg": "/rushikeshgadekar/static/media/profile.b7507370.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7e46627f.js",
+    "static/js/2.8cd2593d.chunk.js",
+    "static/css/main.94c81307.chunk.css",
+    "static/js/main.0e08f82a.chunk.js"
+  ]
+}
