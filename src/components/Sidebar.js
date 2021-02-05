@@ -1,12 +1,12 @@
 import React from "react";
-import img from "../images/pepe.jpg";
+import img from "../images/profile.jpg";
 import "./Sidebar.css";
 const Sidebar = () => {
   return (
     <>
       <div className="sidebar">
         <div className="img-container">
-          <img src={img} alt="pepe" />
+          <img src={img} alt="profile" />
         </div>
         <div className="flex">
           <div className="info">
